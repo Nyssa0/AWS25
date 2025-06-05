@@ -13,7 +13,9 @@
     },
     "categories": {
       "storage": {
-        "users": {}
+        "users": {},
+        "cryptoPrices": {},
+        "cryptoExportBucket": {}
       },
       "function": {
         "saveUser": {
@@ -22,11 +24,23 @@
         },
         "getUser": {
           "deploymentBucketName": "amplify-aws25mehdi-dev-014eb-deployment",
-          "s3Key": "amplify-builds/getUser-4d39593341574477324c-build.zip"
+          "s3Key": "amplify-builds/getUser-57534a57345377337644-build.zip"
+        },
+        "fetchCryptoPrice": {
+          "deploymentBucketName": "amplify-aws25mehdi-dev-014eb-deployment",
+          "s3Key": "amplify-builds/fetchCryptoPrice-68577444547055424167-build.zip"
+        },
+        "signeData": {
+          "deploymentBucketName": "amplify-aws25mehdi-dev-014eb-deployment",
+          "s3Key": "amplify-builds/signeData-48314250644a77564352-build.zip"
         }
       },
       "api": {
-        "users": {}
+        "users": {},
+        "exportCryptoApi": {}
+      },
+      "auth": {
+        "aws25mehdif84b6d19": {}
       }
     }
   }

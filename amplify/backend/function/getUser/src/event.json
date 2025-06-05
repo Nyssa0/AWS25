@@ -1,1 +1,6 @@
-{ "test": "event" }
+{
+  "httpMethod": "GET",
+  "queryStringParameters": {
+    "email": "test7@gmail.com"
+  }
+}
