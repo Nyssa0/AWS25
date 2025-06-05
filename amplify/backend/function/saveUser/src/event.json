@@ -1,0 +1,4 @@
+{
+  "httpMethod": "POST",
+  "body": "{\"email\": \"test7@gmail.com\", \"name\": \"test7\"}"
+}
