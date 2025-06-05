@@ -1,0 +1,13 @@
+{
+  "resourceName": "cryptoFilesStorage",
+  "policyUUID": "af1bb8ae",
+  "bucketName": "crypto-files-storage",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

@@ -1,0 +1,47 @@
+{
+  "hassina": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-aws25-hassina-c6a1c-authRole",
+      "UnauthRoleArn": "arn:aws:iam::093113290662:role/amplify-aws25-hassina-c6a1c-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::093113290662:role/amplify-aws25-hassina-c6a1c-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-aws25-hassina-c6a1c-deployment",
+      "UnauthRoleName": "amplify-aws25-hassina-c6a1c-unauthRole",
+      "StackName": "amplify-aws25-hassina-c6a1c",
+      "StackId": "arn:aws:cloudformation:eu-west-1:093113290662:stack/amplify-aws25-hassina-c6a1c/77a48070-411a-11f0-94ed-06ba26606cdf",
+      "AmplifyAppId": "d34l56pfri33te"
+    },
+    "categories": {
+      "storage": {
+        "users": {},
+        "crypto": {},
+        "cryptoFilesStorage": {}
+      },
+      "function": {
+        "saveUser": {
+          "deploymentBucketName": "amplify-aws25-hassina-c6a1c-deployment",
+          "s3Key": "amplify-builds/saveUser-39485a47434766686b4d-build.zip"
+        },
+        "getUser": {
+          "deploymentBucketName": "amplify-aws25-hassina-c6a1c-deployment",
+          "s3Key": "amplify-builds/getUser-493975506a677959706b-build.zip"
+        },
+        "fetchCrypto": {
+          "deploymentBucketName": "amplify-aws25-hassina-c6a1c-deployment",
+          "s3Key": "amplify-builds/fetchCrypto-583043583675597a4e79-build.zip"
+        },
+        "signeData": {
+          "deploymentBucketName": "amplify-aws25-hassina-c6a1c-deployment",
+          "s3Key": "amplify-builds/signeData-392b4777596568366835-build.zip"
+        }
+      },
+      "api": {
+        "users": {},
+        "exportCryptoAPI": {}
+      },
+      "auth": {
+        "aws256b0ec73f": {}
+      }
+    }
+  }
+}

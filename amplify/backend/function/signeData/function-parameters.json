@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "storage": {
+      "crypto": [
+        "create",
+        "read"
+      ],
+      "cryptoFilesStorage": [
+        "create",
+        "read"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
